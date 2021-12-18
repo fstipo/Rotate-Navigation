@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -16,9 +15,9 @@
 body {
   overflow-x: hidden;
   background-color: var(--dark-bg-clr);
-
   font-family: 'Lato', sans-serif;
   color: var(--txt-clr);
+  margin: 0;
 }
 
 .container {
@@ -27,8 +26,7 @@ body {
   transition: transform 0.5s linear;
   width: 100vw;
   min-height: 100vh;
-  padding: 50px;
-  margin-bottom: 50px;
+  padding: 10px;
 }
 
 .container.show-nav {
@@ -126,7 +124,7 @@ nav ul li a {
 
 .content {
   max-width: 1000px;
-  margin: 150px auto;
+  margin: 100px auto;
 }
 
 .content img {
@@ -134,12 +132,13 @@ nav ul li a {
 }
 
 .content h1 {
-  margin: 0;
+  margin-bottom: 5px;
 }
 
 .content small {
   color: #555;
   font-style: italic;
+  margin-bottom: 30px;
 }
 
 .content p {
